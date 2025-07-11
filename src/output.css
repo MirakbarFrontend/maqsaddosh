@@ -550,6 +550,12 @@
   .max-w-116\.25 {
     max-width: calc(var(--spacing) * 116.25);
   }
+  .max-w-116\.75 {
+    max-width: calc(var(--spacing) * 116.75);
+  }
+  .max-w-117 {
+    max-width: calc(var(--spacing) * 117);
+  }
   .max-w-118 {
     max-width: calc(var(--spacing) * 118);
   }
@@ -883,11 +889,17 @@
   .px-11\.25 {
     padding-inline: calc(var(--spacing) * 11.25);
   }
+  .px-20 {
+    padding-inline: calc(var(--spacing) * 20);
+  }
   .px-26 {
     padding-inline: calc(var(--spacing) * 26);
   }
   .px-26\.5 {
     padding-inline: calc(var(--spacing) * 26.5);
+  }
+  .px-30 {
+    padding-inline: calc(var(--spacing) * 30);
   }
   .py-1 {
     padding-block: calc(var(--spacing) * 1);
@@ -903,6 +915,12 @@
   }
   .py-4\.5 {
     padding-block: calc(var(--spacing) * 4.5);
+  }
+  .py-5 {
+    padding-block: calc(var(--spacing) * 5);
+  }
+  .py-5\.5 {
+    padding-block: calc(var(--spacing) * 5.5);
   }
   .py-6 {
     padding-block: calc(var(--spacing) * 6);
@@ -1205,9 +1223,19 @@
       padding-inline: calc(var(--spacing) * 14);
     }
   }
+  .sm\:px-30 {
+    @media (width >= 40rem) {
+      padding-inline: calc(var(--spacing) * 30);
+    }
+  }
   .sm\:py-3 {
     @media (width >= 40rem) {
       padding-block: calc(var(--spacing) * 3);
+    }
+  }
+  .sm\:py-5\.5 {
+    @media (width >= 40rem) {
+      padding-block: calc(var(--spacing) * 5.5);
     }
   }
   .sm\:py-10 {
@@ -1574,6 +1602,11 @@
       display: grid;
     }
   }
+  .lg\:max-w-1 {
+    @media (width >= 64rem) {
+      max-width: calc(var(--spacing) * 1);
+    }
+  }
   .lg\:max-w-112\.75 {
     @media (width >= 64rem) {
       max-width: calc(var(--spacing) * 112.75);
@@ -1584,9 +1617,34 @@
       max-width: calc(var(--spacing) * 116.25);
     }
   }
+  .lg\:max-w-138 {
+    @media (width >= 64rem) {
+      max-width: calc(var(--spacing) * 138);
+    }
+  }
+  .lg\:max-w-138\.5 {
+    @media (width >= 64rem) {
+      max-width: calc(var(--spacing) * 138.5);
+    }
+  }
   .lg\:max-w-138\.75 {
     @media (width >= 64rem) {
       max-width: calc(var(--spacing) * 138.75);
+    }
+  }
+  .lg\:max-w-140 {
+    @media (width >= 64rem) {
+      max-width: calc(var(--spacing) * 140);
+    }
+  }
+  .lg\:max-w-145 {
+    @media (width >= 64rem) {
+      max-width: calc(var(--spacing) * 145);
+    }
+  }
+  .lg\:max-w-155 {
+    @media (width >= 64rem) {
+      max-width: calc(var(--spacing) * 155);
     }
   }
   .lg\:max-w-269\.25 {
